@@ -1,0 +1,45 @@
+* {
+  background-color: rgb(192, 240, 224);
+}
+
+h1, h2, h3, h4, p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1%;
+  padding: 1%;
+}
+
+ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Elimina el padding */
+  text-align: center; /* Centra el contenido del ul */
+}
+
+li {
+  display: inline-block; /* Cambia a inline-block para que se puedan alinear */
+  margin: 20px; /* Ajusta el margen */
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado */
+  padding: 10px 15px; /* Espaciado alrededor del enlace */
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 187, 255); /* Fondo para los enlaces */
+  color: black; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.titulo {
+  font-size: large;
+  background-color: rgb(0, 166, 255);
+}
+
+#titular {
+  text-align: center;
+  color: white;
+  font-size: medium;
+  background-color: rgb(169, 222, 231);
+}
+
+#formulario {
+  text-align: center;
+}

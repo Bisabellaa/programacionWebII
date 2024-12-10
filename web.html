@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">  
+    
+</head>
+<body>
+    <header>
+    <h1 id="titular">
+        VETERINARIA PEPE
+    </h1>
+    </header>
+    <nav id="menu-nav">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contactos</a></li>  
+        </ul>
+
+    </nav>
+    <section>
+        <div id="formulario">
+            <h2>Formulario de Paciente</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre"><br>
+        
+        
+            <label for="raza">Raza:</label>
+            <input type="text" id="raza" placeholder="Ingrese la raza"><br>
+
+            <label for="consulta">Consulta:</label>
+            <input type="text" id="consulta" placeholder="Ingrese la consulta"><br>
+        
+        
+            <button onclick="agregar()">Agregar</button>
+            <button onclick="modificar()">Modificar</button>
+            <button onclick="eliminar()">Eliminar</button>
+
+            <h3 id="mensaje"></h3>
+        </div>
+
+    </section>
+    <footer>
+    </footer>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
